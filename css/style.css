@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+button {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+}
+
+body .wrapper {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .wrapper .page {
+  max-width: 1300px;
+  background: url(../images/bg-desktop.svg), #674baf;
+  background-size: cover;
+}
+
+body .wrapper .page header {
+  padding: 50px 50px 0 50px;
+}
+
+body .wrapper .page main {
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .wrapper .page main .left {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  margin-right: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .wrapper .page main .left img {
+  width: 100%;
+}
+
+body .wrapper .page main .right {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  padding: 50px;
+}
+
+body .wrapper .page main .right > * {
+  margin-bottom: 25px;
+}
+
+body .wrapper .page main .right h1 {
+  font-size: 35px;
+}
+
+body .wrapper .page main .right button {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  padding: 10px 40px;
+  border-radius: 50px;
+  border: none;
+  background-color: white;
+  color: #674baf;
+  font-weight: bold;
+  -webkit-box-shadow: 0 5px 7px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 7px rgba(0, 0, 0, 0.2);
+}
+
+body .wrapper .page .footer {
+  padding: 0 50px 50px;
+  text-align: right;
+}
+
+body .wrapper .page .footer a {
+  cursor: pointer;
+}
+
+body .wrapper .page .footer a i {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  font-size: 25px;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+  border: 1px solid white;
+  margin-right: 10px;
+}
+
+body .wrapper .page .footer a i:hover {
+  color: #674baf;
+  background-color: white;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+@media (max-width: 760px) {
+  body .wrapper .page header img {
+    width: 50%;
+  }
+  body .wrapper .page main .right {
+    padding: 25px 0px 0px;
+  }
+  body .wrapper .page main .right h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+  body .wrapper .page main .right p {
+    text-align: center;
+  }
+  body .wrapper .page main .right button {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    width: 70%;
+    margin: 0;
+  }
+  body .wrapper .page .footer {
+    padding: 0 50px 50px;
+    text-align: center;
+  }
+  body .wrapper .page .footer a {
+    cursor: pointer;
+  }
+  body .wrapper .page .footer a i {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    margin-right: 10px;
+  }
+  body .wrapper .page .footer a i:hover {
+    color: #674baf;
+    background-color: white;
+  }
+}
+/*# sourceMappingURL=style.css.map */
