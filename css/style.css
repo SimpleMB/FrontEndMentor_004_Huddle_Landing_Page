@@ -103,7 +103,8 @@ body .wrapper .page main .right > * {
 }
 
 body .wrapper .page main .right h1 {
-  font-size: 35px;
+  font-family: 'Poppins' ,sans-serif;
+  font-size: 40px;
 }
 
 body .wrapper .page main .right button {
