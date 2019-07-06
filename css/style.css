@@ -197,23 +197,5 @@ body .wrapper .page .footer a i:hover {
     padding: 0 50px 50px;
     text-align: center;
   }
-  body .wrapper .page .footer a {
-    cursor: pointer;
-  }
-  body .wrapper .page .footer a i {
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    font-size: 25px;
-    line-height: 50px;
-    text-align: center;
-    color: white;
-    border: 1px solid white;
-    margin-right: 10px;
-  }
-  body .wrapper .page .footer a i:hover {
-    color: #674baf;
-    background-color: white;
-  }
 }
 /*# sourceMappingURL=style.css.map */

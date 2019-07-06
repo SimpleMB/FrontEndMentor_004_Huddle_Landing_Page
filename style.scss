@@ -151,24 +151,6 @@ body {
         .footer {
           padding: 0 50px 50px;
           text-align: center;
-          a {
-            cursor: pointer;
-            i {
-              height: 50px;
-              width: 50px;
-              border-radius: 50%;
-              font-size: 25px;
-              line-height: 50px;
-              text-align: center;
-              color: white;
-              border: 1px solid white;
-              margin-right: 10px;
-            }
-            i:hover {
-              color: $primary-violet-color;
-              background-color: white;
-            }
-          }
         }
       }
     }
